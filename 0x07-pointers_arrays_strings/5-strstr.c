@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strstr - Locates a substring.
  * @haystack: The main string to be searched.
@@ -17,7 +16,7 @@ char *_strstr(char *haystack, char *needle)
 	{
 		haystack_ptr = haystack;
 		needle_ptr = needle;
-		while (*haystack_ptr == *needle_ptr  && *needle_ptr != '\0')
+		while (*haystack_ptr == *needle_ptr && *needle_ptr != '\0')
 		{
 			haystack_ptr++;
 			needle_ptr++;
